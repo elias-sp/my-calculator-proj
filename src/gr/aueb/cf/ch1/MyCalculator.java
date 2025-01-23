@@ -10,7 +10,9 @@ public class MyCalculator {
         int num2 = 20;
         int result =0;
         result = add(num1, num2);
-    // δεν θα εκτυπωνει θα ειναι ως bug
+    // δεν θα εκτυπωνει θα ειναι ως bug που θα διορθώσουμε
+        System.out.println("Sum =" + result);
+
     }
 
     public static int add(int a, int b) {
